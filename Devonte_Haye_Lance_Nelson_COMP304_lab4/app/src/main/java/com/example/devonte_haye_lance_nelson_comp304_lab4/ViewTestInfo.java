@@ -44,7 +44,7 @@ public class ViewTestInfo extends AppCompatActivity {
                     int testroute = test.getTestRoute ();
 
                     info = info +
-                            "\n\n Applicant Id: " + testapplicantid +
+                            "\n\n applicant Id: " + testapplicantid +
                             "\n Examiner Id: " + testexaminerid +
                             "\n Test Result: " + testresult +
                             "\n Test Date: " + testdate +

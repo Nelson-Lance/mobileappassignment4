@@ -13,4 +13,10 @@ public interface MyDao {
 
     @Query ("select * from test")
     public List<Test> getTest();
+
+    @Insert
+    public void addApplicant(applicant applicant);
+
+    @Query ("select * from applicant")
+    public List<applicant> getApplicant();
 }
